@@ -1,0 +1,161 @@
+/* Hero Section */
+.hero {
+    background-color: #FAF0E6;
+    color: #352F44;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.hero h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hero h2 {
+    font-family: monospace;
+    font-size: 2rem;
+    text-align: center;
+}
+/* Hero Section */
+
+/* About Me Section */
+.aboutme {
+    background-color: #5C5470;
+    display: grid;
+    grid-template-rows: 250px 250px;
+    grid-template-columns: 400px;
+    justify-content: center;
+    align-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.aboutme img {
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: 40px;
+    border: #FAF0E6 1px solid;
+}
+
+.aboutme p {
+    font-family: monospace;
+    color:#FAF0E6;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 45px;
+} 
+/* About Me Section */
+
+/* My Skills */
+.myskills {
+    background-color: #B9B4C7;
+    margin-top: 0px;
+}
+
+.myskills h2 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    color:#352F44;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 80px;
+}
+
+.myskills div{
+    display: grid;
+    grid-template-rows: 250px;
+    grid-template-columns: 300px 300px;
+    justify-content:center;
+}
+
+.myskills img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.myskills p{
+    color:#352F44;
+    text-align: justify;
+    font-family: monospace;
+    font-size: 20px;
+}
+/* My Skills */
+
+/* Contact Me */
+.contact {
+    background-color:#352F44;
+    text-align: center;
+    color:#FAF0E6;
+}
+
+.contact h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.contact h3 {
+    font-family: monospace;
+    font-size: 25px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.contact p {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.contact a {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    background-color:#FAF0E6;
+    padding: 10px 10px 10px 10px;
+    color:#352F44;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.contact a:hover {
+    background-color:#B9B4C7;
+}
+/* Contact Me */
+
+/* Footer */
+.footer {
+    background-color:#FAF0E6;
+    text-align: center;
+}
+
+.footer a {
+    display: inline-block;
+    text-decoration:none;
+    margin: 20px 20px 10px 20px;
+    padding: 10px 10px 5px 10px;
+    color:#352F44;
+    font-size:20px;
+}
+
+.footer a:hover {
+    color:#B9B4C7;
+}
+
+.footer p {
+    font-size: 14px;
+    padding: 20px 10px 60px 20px;
+}
+/* footer */
